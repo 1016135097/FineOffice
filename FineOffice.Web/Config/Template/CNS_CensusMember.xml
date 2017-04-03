@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<module>
+  <add HeaderText="户别" PropertyName="CensusTypeName" DataType="System.String" Width="100" />
+  <add HeaderText="户号" PropertyName="RegisterNO" DataType="System.String" Width="100" />
+  <add HeaderText="户主" PropertyName="HouseHolder" DataType="System.String" Width="100" />
+  <add HeaderText="姓名" PropertyName="Name" DataType="System.String" Width="100" />
+  <add HeaderText="与户主关系" PropertyName="Relation" DataType="System.String" Width="100" />
+  <add HeaderText="曾用名" PropertyName="OtherName" DataType="System.String" Width="100" />
+  <add HeaderText="性别" PropertyName="Gender"  DataType="System.String" Width="100"/>
+  <add HeaderText="出生地" PropertyName="PlaceOfBirth" DataType="System.String" Width="100" />
+  <add HeaderText="民族" PropertyName="Nationalilty" DataType="System.String" Width="100" />
+  <add HeaderText="籍贯" PropertyName="PlaceOfAncestral" DataType="System.String" Width="100" />
+  <add HeaderText="出生日期" PropertyName="Brithday" DataType="System.DateTime" Width="100" />
+  <add HeaderText="其他地址" PropertyName="Address" DataType="System.String" Width="100" />
+  <add HeaderText="宗教信养" PropertyName="Religion" DataType="System.String" Width="100" />
+  <add HeaderText="身份证号" PropertyName="IDCard" DataType="System.String" Width="100" />
+  <add HeaderText="身高" PropertyName="Height"  DataType="System.String" Width="100" />
+  <add HeaderText="血型" PropertyName="TypeOfBlood" DataType="System.String" Width="100" />
+  <add HeaderText="文化水平" PropertyName="Education" DataType="System.String" Width="100" />
+  <add HeaderText="婚姻状况" PropertyName="Marriage" DataType="System.String" Width="100" />
+  <add HeaderText="兵役状况" PropertyName="MilitaryService" DataType="System.String" Width="100" />
+  <add HeaderText="服务处所" PropertyName="Company" DataType="System.String" Width="100" />
+  <add HeaderText="迁入日期" PropertyName="IngoingDate" DataType="System.DateTime" Width="100" />
+  <add HeaderText="政治面目" PropertyName="Political" DataType="System.String" Width="100" />
+  <add HeaderText="已注销" PropertyName="IsCanceled" DataType="System.Boolean"  Width="100" />
+</module>

@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<xtype>
+  <add key="txt" type="文本文件(*.txt)" ContentType="text/plain"/>
+  <add key="doc" type="Word文档(*.doc)" ContentType="application/msword"/>
+  <add key="docx" type="Word文档(*.docx)" ContentType="application/msword"/>
+  <add key="xls" type="Excel电子表格(*.xls)" ContentType="application/vnd.ms-excel"/>
+  <add key="xlsx" type="Excel电子表格(*.xlsx)" ContentType="application/vnd.ms-excel"/>
+  <add key="ppt" type="演示文稿(*.ppt)" ContentType="application/vnd.ms-powerpoint"/>
+  <add key="rar" type="压缩文件(*.rar)" ContentType="application/rar"/>
+  <add key="zip" type="压缩文件(*.zip)" ContentType="application/zip"/>
+  <add key="gif" type="图像文件(*.gif)" ContentType="image/gif"/>
+  <add key="jpg" type="图像文件(*.jpg)" ContentType="image/jpeg"/>
+  <add key="png" type="图像文件(*.png)" ContentType="image/png"/>
+  <add key="bmp" type="图像文件(*.bmp)" ContentType="image/bmp"/>
+  <add key="pdf" type="PDF文件(*.pdf)" ContentType="application/pdf"/>
+</xtype>

@@ -1,0 +1,15 @@
+.icon-utils-s-add {
+	background-image:url(add.png) !important;
+}
+
+.icon-file-upload {
+	background-image:url(arrow_up.png) !important;
+}
+
+.icon-file-cancel {
+	background-image:url(stop.png) !important;
+}
+
+.icon-utils-s-delete {
+    background-image:url(delete.png) !important;
+}

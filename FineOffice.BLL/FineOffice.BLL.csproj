@@ -1,0 +1,128 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{05CD188B-4155-45CD-B813-D9D8F850998A}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>FineOffice.BLL</RootNamespace>
+    <AssemblyName>FineOffice.BLL</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>
+    </SccProjectName>
+    <SccLocalPath>
+    </SccLocalPath>
+    <SccAuxPath>
+    </SccAuxPath>
+    <SccProvider>
+    </SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ADM_Letter.cs" />
+    <Compile Include="ADM_LetterChannel.cs" />
+    <Compile Include="ADM_LetterFollow.cs" />
+    <Compile Include="ADM_LetterType.cs" />
+    <Compile Include="AM_Kind.cs" />
+    <Compile Include="Bussness\FlowRunHandler.cs" />
+    <Compile Include="CNS_CensusMember.cs" />
+    <Compile Include="CNS_CensusRegister.cs" />
+    <Compile Include="CNS_CensusRelation.cs" />
+    <Compile Include="CNS_CensusType.cs" />
+    <Compile Include="CNS_PoliticalAffiliation.cs" />
+    <Compile Include="CRM_Area.cs" />
+    <Compile Include="CRM_Grade.cs" />
+    <Compile Include="CRM_Industry.cs" />
+    <Compile Include="CRM_Source.cs" />
+    <Compile Include="CRM_Trader.cs" />
+    <Compile Include="CRM_TraderType.cs" />
+    <Compile Include="HD_Folder.cs" />
+    <Compile Include="HR_Department.cs" />
+    <Compile Include="HR_Job.cs" />
+    <Compile Include="HR_Personnel.cs" />
+    <Compile Include="OA_Attachment.cs" />
+    <Compile Include="HD_Attachment.cs" />
+    <Compile Include="OA_Contract.cs" />
+    <Compile Include="OA_ContractType.cs" />
+    <Compile Include="OA_Flow.cs" />
+    <Compile Include="OA_FlowAuthority.cs" />
+    <Compile Include="OA_FlowForm.cs" />
+    <Compile Include="OA_FlowProcess.cs" />
+    <Compile Include="OA_FlowRun.cs" />
+    <Compile Include="OA_FlowRunData.cs" />
+    <Compile Include="OA_FlowRunFeedback.cs" />
+    <Compile Include="OA_FlowRunProcess.cs" />
+    <Compile Include="OA_FlowSort.cs" />
+    <Compile Include="OA_Form.cs" />
+    <Compile Include="OA_FormType.cs" />
+    <Compile Include="OA_Programme.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SYS_MenuList.cs" />
+    <Compile Include="SYS_PageAuthority.cs" />
+    <Compile Include="SYS_Parameter.cs" />
+    <Compile Include="SYS_Role.cs" />
+    <Compile Include="SYS_User.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\FineOffice.Common\FineOffice.Common.csproj">
+      <Project>{951D27FC-7328-42EF-B776-473D9AB4766C}</Project>
+      <Name>FineOffice.Common</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\FineOffice.DataAccess\FineOffice.DataAccess.csproj">
+      <Project>{ABF24912-889F-4ECD-B0BC-ABA6E70F6F3A}</Project>
+      <Name>FineOffice.DataAccess</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\FineOffice.Entity\FineOffice.Entity.csproj">
+      <Project>{8A3F5A8E-4729-4CD4-B158-304F2A95AAE9}</Project>
+      <Name>FineOffice.Entity</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\FineOffice.IDataAccess\FineOffice.IDataAccess.csproj">
+      <Project>{BE8F457C-D64C-4388-83F4-03D7502174B6}</Project>
+      <Name>FineOffice.IDataAccess</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\FineOffice.Modules\FineOffice.Modules.csproj">
+      <Project>{00E6BF2D-5FB3-46A3-8C73-74496949C3AB}</Project>
+      <Name>FineOffice.Modules</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<module>
+  <add HeaderText="企业编号" PropertyName="TraderNO" DataType="System.String" Width="100" />
+  <add HeaderText="企业名称" PropertyName="TraderName" DataType="System.String" Width="100" />
+  <add HeaderText="简称" PropertyName="ShortName" DataType="System.String" Width="100" />
+  <add HeaderText="拼音码" PropertyName="PinyinCode" DataType="System.String" Width="100" />
+  <add HeaderText="法人代表" PropertyName="Incorporator" DataType="System.String" Width="100" />
+  <add HeaderText="企业人数" PropertyName="NumberOfPeople" DataType="System.Int32" Width="100" />
+  <add HeaderText="联系电话" PropertyName="Tel"  DataType="System.String" />
+  <add HeaderText="传真号码" PropertyName="Fax" DataType="System.String" Width="100" />
+  <add HeaderText="网址" PropertyName="WebSite" DataType="System.String" Width="100" />
+  <add HeaderText="电子邮件" PropertyName="Email" DataType="System.String" Width="100" />
+  <add HeaderText="联系地址" PropertyName="Address" DataType="System.String" Width="100" />
+  <add HeaderText="联系人" PropertyName="Linkman" DataType="System.String" Width="100" />
+  <add HeaderText="移动电话" PropertyName="Mobile" DataType="System.String" Width="100" />
+  <add HeaderText="所在地区" PropertyName="Area" DataType="System.String" Width="100" />
+  <add HeaderText="企业级别" PropertyName="Grade" DataType="System.String" Width="100" />
+  <add HeaderText="行业分类" PropertyName="Industry" DataType="System.String" Width="100" />
+  <add HeaderText="企业性质" PropertyName="TraderType" DataType="System.String" Width="100" />
+  <add HeaderText="来源渠道" PropertyName="Source" DataType="System.String" Width="100" />
+  <add HeaderText="跟时人" PropertyName="HandlerName" DataType="System.String" Width="100" />
+  <add HeaderText="创建日期" PropertyName="CreateTime"  DataType="System.DateTime" Width="100" StringFormat="{0:yyyy-MM-dd}" />
+  <add HeaderText="备注" PropertyName="Remark" DataType="System.String" Width="100" />
+</module>

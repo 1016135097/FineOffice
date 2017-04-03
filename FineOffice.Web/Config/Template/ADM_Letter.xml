@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<module>
+  <add HeaderText="信访编号" PropertyName="LetterNO" DataType="System.String" Width="100" />
+  <add HeaderText="标题" PropertyName="Title" DataType="System.String" Width="100" />
+  <add HeaderText="信访渠道" PropertyName="Channel" DataType="System.String" Width="100" />
+  <add HeaderText="问题分类" PropertyName="LetterType" DataType="System.String" Width="100" />
+  <add HeaderText="信访人数" PropertyName="NumberOfpeople" DataType="System.Int32" Width="100" />
+  <add HeaderText="发生地点" PropertyName="Area" DataType="System.String" Width="100" />
+  <add HeaderText="信访时间" PropertyName="VisitTime"  DataType="System.DateTime" StringFormat="{0:yyyy-MM-dd HH:mm}" Width="180"/>
+  <add HeaderText="信访人" PropertyName="Visitor" DataType="System.String" Width="100" />
+  <add HeaderText="年龄" PropertyName="Age" DataType="System.Int32" Width="100" />
+  <add HeaderText="性别" PropertyName="Gender" DataType="System.String" Width="100" />
+  <add HeaderText="移动电话" PropertyName="Mobile" DataType="System.String" Width="100" />
+  <add HeaderText="身份证号" PropertyName="IDCard" DataType="System.String" Width="100" />
+  <add HeaderText="联系地址" PropertyName="Address" DataType="System.String" Width="100" />
+  <add HeaderText="身份证号" PropertyName="IDCard" DataType="System.String" Width="100" />
+  <add HeaderText="信访对象" PropertyName="RecipientName"  DataType="System.String" Width="100" />
+  <add HeaderText="处理人" PropertyName="HandlerName" DataType="System.String" Width="100" />
+  <add HeaderText="登记人" PropertyName="RecorderName" DataType="System.String" Width="100" />
+</module>

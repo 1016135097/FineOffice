@@ -1,0 +1,150 @@
+﻿body
+{
+	margin: 8px;
+	height: auto;
+}
+.clear
+{
+	clear: both;
+}
+.lable
+{
+	background-color: #EEEEEE;
+	width: 13%;
+	height: 45px;
+	font-weight: bold;
+	text-align: right;
+}
+.field
+{
+	padding-left: 5px;
+	height: 45px;
+	width: 37%;
+	background-color: #FFF;
+}
+.table
+{
+	background-color: #CDCDCD;
+	border: 0px;
+}
+.rowpanel
+{
+	margin-bottom: 20px;
+}
+.rowbuttom
+{
+	margin-bottom: 10px;
+}
+
+/*
+table.result
+{
+    margin: 0px;
+    padding: 0px;
+    width: 500px;
+}
+
+table.result th
+{
+    border-bottom: solid 1px #ccc;
+    font-weight: bold;
+    padding: 3px;
+}
+
+table.result td
+{
+    padding: 3px;
+}
+*/
+
+ol.result
+{
+	list-style-type: decimal;
+	margin: 10px 0 10px 25px;
+}
+
+table.result
+{
+	margin: 10px 0;
+	width: 500px;
+}
+
+table.result th
+{
+	font-weight: bold;
+	font-size: 13px;
+}
+
+table.result td, table.result th
+{
+	border-bottom: solid 1px #efefef;
+	padding: 5px;
+}
+
+.expander
+{
+	padding-left: 60px;
+	padding-bottom: 8px;
+	padding-right: 8px;
+	padding-top: 8px;
+}
+.expander p
+{
+	padding: 8px;
+}
+.expander strong
+{
+	font-weight: bold;
+}
+.padding
+{
+	padding-left: 8px;
+}
+.expander_no
+{
+	padding-left: 0px;
+	padding-bottom: 8px;
+	padding-right: 8px;
+	padding-top: 8px;
+}
+.expander_no p
+{
+	padding: 8px;
+}
+.expander_no strong
+{
+	font-weight: bold;
+}
+
+/*查询栏中的样式*/
+.datecontainer .x-form-field-trigger-wrap
+{
+	margin-right: 5px;
+}
+.mright
+{
+	margin-right: 5px;
+}
+.inline
+{
+	margin-top: 4px;
+	float: left;
+}
+.middleline
+{
+	margin-top: 4px;
+	margin-left: 7px;
+	float: left;
+}
+.btnline
+{
+	margin-top: 0px;
+	margin-left: 6px;
+	margin-right: 2px;
+	float: left;
+}
+.btninline
+{
+	float: left;
+}
+/*查询栏中的样式 结束*/
